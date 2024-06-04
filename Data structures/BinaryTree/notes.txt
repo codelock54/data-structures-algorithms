@@ -1,0 +1,36 @@
+el grado de un node es el numero de hijos que tiene el nodo 
+el grado de un arbol es el max grado de entre todos los nodos 
+
+Altura: numero de niveles empezando desde el 0 (nodo padre)
+
+debe cumplir para todos los nodos la consistencia 
+
+arbol binario completo cuando todos tienen sus dos nodos correspondientes 
+
+nodos interios entre las hojas y el nodo raiz 
+
+hojas: nodos del ultimo nivel 
+
+un arbol binario completo cumple 2^h -1 = # nodos donde h es la altura 
+
+Recorridos: 
+
+    Preorder:
+
+    InOrder:
+
+    PostOrder:
+
+
+delete nodes: 
+    leaf nodes: 
+        delete father pointer
+    
+    inter nodes: 
+
+    root node: 
+        (if exist)
+        first in the left tre sube el mayor de los menores 
+
+        then right tree sube el menor de los mayores
+
